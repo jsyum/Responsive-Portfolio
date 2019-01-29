@@ -101,6 +101,15 @@ h2 {
   .header {
     min-width: 458px;
   }
+
+  .about {
+    min-width: 410px;
+    font-size: 11px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
   .name {
     font-size: 15px;
   }

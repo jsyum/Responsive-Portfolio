@@ -99,10 +99,17 @@ h2 {
 
 @media screen and (max-width: 640px) {
   .header {
-    min-width: 575px;
+    min-width: 458px;
   }
 
+  .about {
+    min-width: 410px;
+  }
+  .name {
+    font-size: 15px;
+  }
   .links {
-    font-size: 17px;
+    font-size: 12px;
+    width: 250px;
   }
 }
