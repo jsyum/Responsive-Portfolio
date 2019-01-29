@@ -51,10 +51,9 @@ nav li {
 /* ABOUT */
 .about {
   margin-left: 10%;
-  margin-bottom: 10%;
   background: whitesmoke;
   width: 85%;
-  height: 53%;
+  height: 100%;
   padding: 5px;
 }
 
@@ -100,6 +99,15 @@ h2 {
 @media screen and (max-width: 640px) {
   .header {
     min-width: 458px;
+  }
+
+  .about {
+    min-width: 410px;
+    font-size: 11px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
   .name {
     font-size: 15px;
