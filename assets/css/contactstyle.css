@@ -87,7 +87,7 @@ h2 {
   text-align: center;
   background: #666666;
   border-top: 5px solid #4aaaa5;
-  height: 30px;
+  height: 5%;
   width: 100%;
 }
 
@@ -104,6 +104,11 @@ h2 {
 
   .about {
     min-width: 410px;
+    font-size: 11px;
+  }
+
+  h2 {
+    font-size: 20px;
   }
   .name {
     font-size: 15px;
@@ -111,5 +116,8 @@ h2 {
   .links {
     font-size: 12px;
     width: 250px;
+  }
+  .footer {
+    height: 2%;
   }
 }
