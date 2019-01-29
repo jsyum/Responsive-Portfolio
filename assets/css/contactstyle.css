@@ -13,14 +13,14 @@ a {
 /* HEADER */
 .header {
   background-color: white;
-  height: 81px;
+  height: 20%;
   border-bottom: 1px solid grey;
   margin: 0;
   position: relative;
 }
 
 .name {
-  width: 200px;
+  width: 20%;
   margin-left: 10%;
   font-family: "Georgia";
   font-size: 30px;
@@ -89,4 +89,20 @@ h2 {
   border-top: 5px solid #4aaaa5;
   height: 30px;
   width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    min-width: 575px;
+  }
+
+  .links {
+    font-size: 17px;
+  }
 }
