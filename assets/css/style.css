@@ -49,12 +49,16 @@ nav li {
 }
 
 /* ABOUT */
+#profilepic {
+  width: 100%;
+}
 .about {
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   background: whitesmoke;
   width: 85%;
-  height: 53%;
+  /* height: 53%; */
+  height: 100%;
   padding: 5px;
 }
 
@@ -69,6 +73,7 @@ h2 {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -95,9 +100,6 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
-    height: 2%;
-  }
 }
 
 @media screen and (max-width: 640px) {
@@ -122,5 +124,9 @@ h2 {
   }
   .footer {
     height: 2%;
+  }
+
+  #profilepic {
+    min-width: 400px;
   }
 }

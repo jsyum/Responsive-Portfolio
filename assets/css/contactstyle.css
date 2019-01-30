@@ -49,9 +49,13 @@ nav li {
 }
 
 /* ABOUT */
+#treespic {
+  width: 100%;
+}
+
 .about {
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
   background: whitesmoke;
   width: 85%;
   height: 53%;
@@ -69,6 +73,7 @@ h2 {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -113,11 +118,16 @@ h2 {
   .name {
     font-size: 15px;
   }
+
   .links {
     font-size: 12px;
     width: 250px;
   }
   .footer {
     height: 2%;
+  }
+
+  #treespic {
+    min-width: 400px;
   }
 }
