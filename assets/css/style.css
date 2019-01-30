@@ -110,6 +110,7 @@ h2 {
   .about {
     min-width: 410px;
     font-size: 11px;
+    margin-left: 0;
   }
 
   h2 {
@@ -117,6 +118,7 @@ h2 {
   }
   .name {
     font-size: 15px;
+    margin-left: 0%;
   }
   .links {
     font-size: 12px;
@@ -127,6 +129,6 @@ h2 {
   }
 
   #profilepic {
-    min-width: 400px;
+    min-width: 350px;
   }
 }
