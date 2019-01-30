@@ -21,7 +21,7 @@ a {
 
 .name {
   width: 20%;
-  margin-left: 10%;
+  margin-left: 6%;
   font-family: "Georgia";
   font-size: 30px;
   text-align: center;
@@ -36,8 +36,7 @@ a {
 
 .links {
   float: right;
-  width: 300px;
-  height: 50px;
+  margin-right: 8%;
   font-size: 20px;
   color: grey;
   box-align: right;
@@ -45,12 +44,12 @@ a {
 
 nav li {
   display: inline-block;
-  padding: 10px;
+  padding: 7px;
 }
 
 /* ABOUT */
 .about {
-  margin-left: 10%;
+  margin-left: 6%;
   margin-bottom: 15%;
   background: whitesmoke;
   width: 85%;
@@ -104,7 +103,6 @@ h2 {
 
   .about {
     min-width: 410px;
-    font-size: 11px;
     margin-left: 0;
   }
 
@@ -116,8 +114,8 @@ h2 {
     margin-left: 0;
   }
   .links {
-    font-size: 12px;
-    width: 250px;
+    font-size: 17px;
+    margin-right: 9%;
   }
   .footer {
     height: 2%;
