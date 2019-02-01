@@ -15,14 +15,12 @@ a {
 /* HEADER */
 .header {
   background-color: white;
-  /* height: 20%; */
   border-bottom: 1px solid grey;
   margin: 0;
   position: relative;
 }
 
 .name {
-  /* width: 20%; */
   margin-left: 6%;
   font-family: "Georgia";
   font-size: 30px;
@@ -117,9 +115,6 @@ h2 {
   .links {
     font-size: 15px;
   }
-  .footer {
-    height: 2%;
-  }
 }
 
 @media screen and (max-width: 640px) {
@@ -129,7 +124,7 @@ h2 {
   }
 
   #profilepic {
-    min-width: 450px;
+    min-width: 400px;
   }
 
   .row {
@@ -145,13 +140,14 @@ h2 {
   .links {
     width: 100%;
     float: none;
+    margin: 0%;
     display: block;
     text-align: center;
-    margin: 0%;
   }
 
   .about {
     display: block;
     margin-left: 0;
+    width: 100%;
   }
 }
