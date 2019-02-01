@@ -100,17 +100,13 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-}
-
-@media screen and (max-width: 640px) {
   .header {
-    min-width: 458px;
+    width: 100%;
   }
 
   .about {
     min-width: 410px;
-    font-size: 11px;
-    margin-left: 0;
+    margin-bottom: 20%;
   }
 
   h2 {
@@ -118,19 +114,41 @@ h2 {
   }
   .name {
     font-size: 15px;
-    margin-left: 0;
   }
-
   .links {
     font-size: 15px;
-    margin-right: 13%;
   }
+}
 
-  .footer {
-    height: 2%;
+@media screen and (max-width: 640px) {
+  .header {
+    width: 100%;
+    position: static;
   }
 
   #treespic {
     min-width: 400px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .name {
+    width: 100%;
+    display: block;
+    margin: 0%;
+  }
+
+  .links {
+    width: 100%;
+    float: none;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .about {
+    margin-left: 0;
+    width: 100%;
   }
 }

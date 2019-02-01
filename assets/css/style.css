@@ -141,12 +141,10 @@ h2 {
     width: 100%;
     float: none;
     margin: 0%;
-    display: block;
     text-align: center;
   }
 
   .about {
-    display: block;
     margin-left: 0;
     width: 100%;
   }
